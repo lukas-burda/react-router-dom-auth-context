@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with Create React App + Context Implemented + Router Dom Implemented
+[ Template by ](https://github.com/lukas-burda)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with 
+[Create React App](https://github.com/facebook/create-react-app).
+[React-Router-Dom](https://reactrouter.com/en/main).
+[React Context](https://reactjs.org/docs/context.html)
 
 ## Available Scripts
 

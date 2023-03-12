@@ -1,8 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import AuthContext from "./contexts/AuthContext";
 
 function App() {
+  const { login } = useContext(AuthContext);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,14 +13,13 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Edit <code>src/contexts/AuthContext.tsx </code> authentication
+          context.
+        </p>
+        <button className="App-link" onClick={login}>
+          Login
+        </button>
       </header>
     </div>
   );
