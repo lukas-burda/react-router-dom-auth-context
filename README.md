@@ -1,5 +1,5 @@
 # Getting Started with Create React App + Context Implemented + Router Dom Implemented
-[ Template by ](https://github.com/lukas-burda)
+[ Template by Lukas Burda ](https://github.com/lukas-burda)
 
 This project was bootstrapped with 
 [Create React App](https://github.com/facebook/create-react-app).
